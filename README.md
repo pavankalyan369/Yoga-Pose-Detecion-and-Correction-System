@@ -57,6 +57,41 @@ Many people practice yoga incorrectly without professional guidance, which can l
 
 ---
 
+
+---
+
+## Sample Outputs
+
+### Interface
+<img src="outputs/interface.jpg" width="600"/> 
+
+### Pose Prediction (Image Input)
+<img src="outputs/prediction.jpg" width="600"/>
+
+This shows the predicted yoga pose ("Warrior") with pose landmarks overlaid.
+
+---
+
+### ✅ Pose Correction (Image Input)
+<img src="outputs/correction.jpg" width="600"/>
+
+Here, joint-wise feedback is given for each landmark (e.g., L-knee: more, R-shoulder: OK), making it easy to improve posture.
+
+---
+
+### ✅ Confusion Matrix
+<img src="outputs/confusionmatrix.png" width="600"/>
+
+Model accuracy: **97.85%**  
+Confusion matrix visualizes the true vs predicted poses.
+
+---
+
+### ✅ Pose Prediction (Video Snapshot)
+<img src="outputs/video_pose_result.jpg" width="600"/>
+
+Pose is predicted for each frame of a video, and the final output is exported as an annotated video.
+
 ## Model Performance
 
 - Classifier used: `SVC(kernel='rbf', probability=True)`
