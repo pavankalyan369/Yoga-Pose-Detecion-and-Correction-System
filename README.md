@@ -89,7 +89,7 @@ Confusion matrix visualizes the true vs predicted poses.
 
 
 ### ✅ Video Output Snapshot
-<img src="outputs/ouput1.png" width="600"/>
+<img src="outputs/ouput1.jpg" width="600"/>
 
 ### Full Output Video (Pose Detection or Correction)
 
