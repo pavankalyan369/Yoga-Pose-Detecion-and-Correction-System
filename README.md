@@ -86,13 +86,16 @@ Model accuracy: **97.85%**
 Confusion matrix visualizes the true vs predicted poses.
 
 ---
+
+
+### ✅ Video Output Snapshot
+<img src="outputs/ouput1.png" width="600"/>
+
 ### Full Output Video (Pose Detection or Correction)
 
 <a href="outputs/createdvideo.mp4">Click to view annotated pose output video</a>
 
 
-### ✅ Pose Prediction (Video Snapshot)
-<img src="outputs/video_pose_result.jpg" width="600"/>
 
 Pose is predicted for each frame of a video, and the final output is exported as an annotated video.
 
