@@ -65,14 +65,14 @@ Many people practice yoga incorrectly without professional guidance, which can l
 ### Interface
 <img src="outputs/interface.png" width="600"/> 
 
-### Pose Prediction (Image Input)
+### Pose Prediction 
 <img src="outputs/detection.png" width="600"/>
 
 This shows the predicted yoga pose ("Warrior") with pose landmarks overlaid.
 
 ---
 
-### Pose Correction (Image Input)
+### Pose Correction 
 <img src="outputs/correction.png" width="600"/>
 
 Here, joint-wise feedback is given for each landmark (e.g., L-knee: more, R-shoulder: OK), making it easy to improve posture.
